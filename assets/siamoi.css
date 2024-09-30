@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'playwrite';
+    src: url(./font/Playwrite_DE_Grund/static/PlaywriteDEGrund-Regular.ttf)
+}
+
+*{
+    font-family: 'playwrite';
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black ;
+}
+.chat img{
+    width: 100px;
+}
+.bar-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a img{
+    width: 75px;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+li{
+    border: solid black 1px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    
+}
+.total{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    border: solid gray 1px;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 500px;
+}
+.search-input{
+    border: none;
+    outline: none;
+    width: 480px;
+    padding-left: 15px;
+}
+.search-button{
+    border: none;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+}
+h1{
+    margin-left: 80px;
+}
+.siamois img{
+    width: 500px;
+}
+.siamois{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.fiche{
+    background-image: url(./image/fond\ article.avif);
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+.fiche p{
+    margin: 50px;
+}
